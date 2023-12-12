@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mariloucantilado/Desktop/IT-ELEC/Backend/Backend/Backend.csproj": {}
+    "C:\\Users\\Bob_\\Desktop\\itelec-finals\\IT-ELEC-FINAL-PROJECT\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "/Users/mariloucantilado/Desktop/IT-ELEC/Backend/Backend/Backend.csproj": {
+    "C:\\Users\\Bob_\\Desktop\\itelec-finals\\IT-ELEC-FINAL-PROJECT\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mariloucantilado/Desktop/IT-ELEC/Backend/Backend/Backend.csproj",
+        "projectUniqueName": "C:\\Users\\Bob_\\Desktop\\itelec-finals\\IT-ELEC-FINAL-PROJECT\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "/Users/mariloucantilado/Desktop/IT-ELEC/Backend/Backend/Backend.csproj",
-        "packagesPath": "/Users/mariloucantilado/.nuget/packages/",
-        "outputPath": "/Users/mariloucantilado/Desktop/IT-ELEC/Backend/Backend/obj/",
+        "projectPath": "C:\\Users\\Bob_\\Desktop\\itelec-finals\\IT-ELEC-FINAL-PROJECT\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\Bob_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bob_\\Desktop\\itelec-finals\\IT-ELEC-FINAL-PROJECT\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mariloucantilado/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Bob_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +43,28 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -68,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
