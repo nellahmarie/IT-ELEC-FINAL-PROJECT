@@ -14,7 +14,7 @@ const TodoList = ({ todoList, deleteTaskList }) => {
         if (onSave !== null) {
             axios.put(`${serverUrl}/TaskList/${list.id}`, list).catch((error) => console.log(error));
             setOnSave(null);
-        }
+        } // eslint-disable-next-line
     }, [onSave]);
 
     const handleChanges = (newValue) => {

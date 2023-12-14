@@ -40,7 +40,7 @@ const LoginForm = ({ setForm }) => {
                         Username
                     </label>
                     <input
-                        defaultValue={'1'}
+                        // defaultValue={'1'}
                         type="text"
                         name="username"
                         placeholder="Username"
@@ -52,7 +52,7 @@ const LoginForm = ({ setForm }) => {
                         Password
                     </label>
                     <input
-                        defaultValue={'1'}
+                        // defaultValue={'1'}
                         type="password"
                         name="password"
                         placeholder="Password"

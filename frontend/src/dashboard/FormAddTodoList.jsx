@@ -83,7 +83,7 @@ const TodoTask = ({ index, todos, setTodos }) => {
     const handleChange = (newValue) => {
         setTodos(
             todos.map((todo, i) => {
-                return i === index ? newValue.trim() : todo;
+                return i === index ? newValue : todo;
             })
         );
     };
