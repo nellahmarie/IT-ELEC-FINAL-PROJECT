@@ -7,6 +7,11 @@ import { useContext } from 'react';
 const LoginForm = ({ setForm }) => {
     const user = useContext(UserContext);
     const navigate = useNavigate();
+
+    if (user == null) {
+        return navigate('/', { replace: true });
+    }
+
     const loginSubmit = (event) => {
         event.preventDefault();
         var data = new FormData(event.target);
